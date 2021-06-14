@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: #384551;
+  width: 59px;
+  height: 100vh;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  margin-top: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: 59px;
+    width: 100vw;
+    justify-content: flex-start;
+
+    .logo {
+      padding-left: 16px !important ;
+      margin-top: 16px;
+    }
+  }
+}

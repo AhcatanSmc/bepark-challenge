@@ -1,0 +1,63 @@
+.card {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  width: 105px;
+  height: 105px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  margin: 20px;
+  font-family: Roboto;
+  color: #343435;
+  font-size: 18px;
+}
+
+.days {
+  width: 100%;
+}
+
+h4 {
+  margin: 0;
+}
+
+.daycount {
+  margin: 0px 0px 4px 0px;
+  font-size: 36px;
+}
+
+.options {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.option-box {
+  margin: 5px 10px 0px 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  border-style: hidden;
+  background-color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+  &::placeholder {
+    color: #ddd;
+    text-align: center;
+    padding-left: 10px;
+  }
+}
+
+.no-outline:focus {
+  outline: none;
+}
