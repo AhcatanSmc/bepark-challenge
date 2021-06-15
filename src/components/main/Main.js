@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.scss";
-import Breadcrumb from "./Breadcrumb";
-import Planning from "./Planning";
+import Breadcrumb from "../breadcrumb/Breadcrumb";
+import Planning from "../planning/Planning";
 
 function Main() {
   return (

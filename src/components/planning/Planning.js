@@ -1,6 +1,6 @@
 import React from "react";
 import "./Planning.scss";
-import Card from "./Card";
+import Card from "../card/Card";
 import { ReactComponent as PlusSign } from "./plussign.svg";
 
 import { wrapGrid } from "animate-css-grid";

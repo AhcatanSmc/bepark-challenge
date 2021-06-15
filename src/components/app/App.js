@@ -1,6 +1,6 @@
 import "./App.scss";
-import Navbar from "./Navbar";
-import Main from "./Main";
+import Navbar from "../navbar/Navbar";
+import Main from "../main/Main";
 
 function App() {
   return (
