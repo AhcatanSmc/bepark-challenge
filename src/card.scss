@@ -1,5 +1,6 @@
 .card {
   display: block;
+
   flex-direction: column;
   align-items: center;
   width: 105px;
@@ -45,7 +46,7 @@ input {
   background-color: #fff;
   font-size: 36px;
   font-weight: 700;
-  width: 100%;
+  width: 95%;
   text-align: center;
   display: flex;
   align-content: center;
@@ -54,10 +55,28 @@ input {
   &::placeholder {
     color: #ddd;
     text-align: center;
-    padding-left: 10px;
+    padding-left: 15px;
   }
 }
 
 .no-outline:focus {
   outline: none;
 }
+
+
+@media only screen and (max-width: 600px) {
+  @supports (-webkit-touch-callout: none) {
+  input {
+    margin: 0;
+    padding: 0;
+
+  }
+}
+
+
+    &::placeholder {
+    color: #ddd;
+    text-align: center;
+    padding: 0px 10px 0px 0px;
+  }
+  }

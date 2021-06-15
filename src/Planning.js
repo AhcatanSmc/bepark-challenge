@@ -116,6 +116,24 @@ class Planning extends React.Component {
     }
   };
 
+  onBlurChange = (event) => {
+   
+      const beforeInputCardList = this.state.cardList;
+      const afterInputCardList = [...beforeInputCardList];
+      const length = afterInputCardList.length;
+      afterInputCardList[length - 1].days = parseInt(event.target.value);
+      this.setState({ cardList: afterInputCardList });
+      document
+        .getElementById("confirmation-msg")
+        .style.setProperty("display", "block");
+      setTimeout(function () {
+        document
+          .getElementById("confirmation-msg")
+          .style.setProperty("display", "none");
+      }, 3000);
+    
+  };
+
   onDelete = (event) => {
     event.target.parentElement.parentElement.parentElement.parentElement.style.setProperty(
       "display",
@@ -144,6 +162,7 @@ class Planning extends React.Component {
             ref={`card${i}`}
             onDelete={this.onDelete}
             onInputChange={this.onInputChange}
+            onBlurChange={this.onBlurChange}
             card={card}
           />
         </div>

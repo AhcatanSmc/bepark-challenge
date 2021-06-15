@@ -68,6 +68,7 @@ class Card extends React.Component {
               placeholder="10"
               className="no-outline"
               onKeyDown={this.props.onInputChange}
+              onBlur={this.props.onBlurChange}
             ></input>
           )}
           <h1 className="daycount">{this.props.card.days}</h1>
