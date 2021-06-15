@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bepark-challenge/static/css/main.f02d120e.chunk.css",
+    "main.css": "/bepark-challenge/static/css/main.498de29d.chunk.css",
     "main.js": "/bepark-challenge/static/js/main.f4f5b25f.chunk.js",
     "main.js.map": "/bepark-challenge/static/js/main.f4f5b25f.chunk.js.map",
     "runtime-main.js": "/bepark-challenge/static/js/runtime-main.07fab063.js",
@@ -10,7 +10,7 @@
     "static/js/3.85e4f71d.chunk.js": "/bepark-challenge/static/js/3.85e4f71d.chunk.js",
     "static/js/3.85e4f71d.chunk.js.map": "/bepark-challenge/static/js/3.85e4f71d.chunk.js.map",
     "index.html": "/bepark-challenge/index.html",
-    "static/css/main.f02d120e.chunk.css.map": "/bepark-challenge/static/css/main.f02d120e.chunk.css.map",
+    "static/css/main.498de29d.chunk.css.map": "/bepark-challenge/static/css/main.498de29d.chunk.css.map",
     "static/js/2.3f5e4246.chunk.js.LICENSE.txt": "/bepark-challenge/static/js/2.3f5e4246.chunk.js.LICENSE.txt",
     "static/media/Logo.eeb9c119.svg": "/bepark-challenge/static/media/Logo.eeb9c119.svg",
     "static/media/lessign.a269fa90.svg": "/bepark-challenge/static/media/lessign.a269fa90.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.07fab063.js",
     "static/js/2.3f5e4246.chunk.js",
-    "static/css/main.f02d120e.chunk.css",
+    "static/css/main.498de29d.chunk.css",
     "static/js/main.f4f5b25f.chunk.js"
   ]
 }
